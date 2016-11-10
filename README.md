@@ -1,5 +1,6 @@
 # RNNSearch
 ./run_shuffle.sh
+
 ./run_prepare.sh
 
 安装Anaconda:
@@ -24,4 +25,5 @@ git clone https://github.com/mila-udem/fuel
 python setup.py install
 
 ./run_train.sh
+
 ./run_test.sh
