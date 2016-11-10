@@ -1,0 +1,9 @@
+假设语料共有N句，
+1个epoch 就是训练完一次语料，即训练完N句。
+1个iter就是一次训练80句。
+1个epoch共有N/80 个iter
+Val_burn_in可以取14个epoch,所以val_burn_in=14*N/80 iter
+Val_burn_in_fine=20*N/80 iter
+Val_freq=1*N/80 iter
+Valid_freq_fine=1/2 * N/80 iter 
+Save_freq=1/4 * N/80
